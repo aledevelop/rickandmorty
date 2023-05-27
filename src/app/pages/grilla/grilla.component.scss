@@ -1,0 +1,69 @@
+label {
+  color: snow;
+}
+
+.mdc-data-table__row {
+  height: 30px;
+  cursor: pointer;
+}
+.column_image {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mat-column-name {
+  width:600px;
+}
+
+.mat-column-species {
+  width:200px;
+}
+
+.mat-column-status {
+  width:200px;
+}
+
+.mat-column-type {
+  width:300px;
+}
+
+.mat-column-gender {
+  width:200px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  input {
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkorchid;
+    color: snow;
+    padding: 10px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
